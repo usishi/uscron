@@ -1,3 +1,4 @@
+#!/opt/local/bin/node --abort_on_uncaught_exception
 var 
 	schedule 	= require('node-schedule'),
 	spawn 		= require('child_process').spawn,
