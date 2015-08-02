@@ -1,0 +1,14 @@
+{
+	"jobs":[
+		{
+			"desc" : "Performans Topla - her 10 saniye",
+			"sche" : "*/10 * * * * *",
+			"cmd" : "./bin/cronjobs_10sec"
+		},
+		{
+			"desc" : "Performans+Donanım Topla - her dakika",
+			"sche" : "4 * * * * *",
+			"cmd" : "./bin/cronjobs_1min"
+		}
+	]
+}

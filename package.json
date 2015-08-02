@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "node-schedule": "0.2.8"
+  },
+  "description": "A Simple node-schedule cli",
+  "name": "uscron",
+  "version": "0.0.1"
+}
